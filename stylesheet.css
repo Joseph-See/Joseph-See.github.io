@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+/* /!-- Backup of original gradient: background: linear-gradient(45deg, #145369, #2596be);  --> */
+body {
+  font-family: 'Poppins', sans serif;
+  background: linear-gradient(45deg, #145369, #fff);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Projects Section */
+
+.project {
+  background: #041114;
+  border-radius: 3px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  align-items: stretch;  
+}
+
+.card {
+  box-shadow: 2px 2px 4px black;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.project-title {
+  padding: 2rem 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  object-fit: cover;
+}
+
+#projects > h2 {
+  max-width: 500px;
+  border-bottom: 0.1rem solid black;
+  margin: 0 auto 50px auto;
+}
+
+/* Weclome section */
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#welcome-section > h1 {
+  color: #000;
+}
+
+#welcome-section > p {
+  color: #000;
+}
+
+/* Nav bar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+}
+
+/* Contact section */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  padding: 0 4rem;
+  color: white;
+  background-color: #072126;
+}
+
+.contact-header > h2 {
+  font-size: 4rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-link {
+  font-size: 2rem;
+  color: #be25a5;
+  text-shadow: 2px 2px 2pc black;
+  transition: transform 2s ease-out;
+}
