@@ -92,7 +92,7 @@ h1, h2 {
 }
 
 /* Weclome section */
-
+/* TODO: Fix spacing issues when viewing on mobile*/
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -145,6 +145,7 @@ h1, h2 {
 
 /* Contact section */
 
+
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -161,7 +162,7 @@ h1, h2 {
     .contact-section {
         height: 20vh;
     }
-})
+}
 
 .contact-header > h2 {
   font-size: 4rem;
