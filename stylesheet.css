@@ -49,7 +49,7 @@ h1, h2 {
 }
 
 /* Projects Section */
-
+/*TODO: Change size of project cards when viewing on mobile */
 .project {
   background: #041114;
   border-radius: 3px;
